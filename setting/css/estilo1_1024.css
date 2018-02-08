@@ -1,0 +1,45 @@
+@charset "utf-8";
+/* CSS Document */
+
+.principal
+		{
+			width: 900px;	height: 100%;
+			border: 1px solid grey;
+			margin: 0 auto;
+			margin-top: 5%;
+		}
+		.uno
+		{
+			width: 165px;	height: 300px;
+			border: 2px solid #BCD630;
+			display: inline-block;
+			margin: 3px;
+			box-shadow: 0px 5px 10px grey;
+			-webkit-box-shadow: 0px 5px 10px grey;
+			border-radius: 7px;
+			-webkit-border-radius: 7px;
+			position: relative;
+			transition: 0.4s all;
+		}
+		.uno:hover{
+			background: #BCD630;
+			box-shadow: 0px 5px 10px black;
+			-webkit-box-shadow: 0px 5px 10px black;
+		}
+		.logo
+		{
+			width: 151px;
+			margin: 0 auto;
+			margin-top: 10px;
+			
+		}
+		.nota
+		{
+			width: 150px; height: 40%;
+			border: 0px solid black;
+			margin:0 auto;
+			font-family: sans-serif;	
+			margin-top: 10px;
+			text-align: center;
+			
+		}

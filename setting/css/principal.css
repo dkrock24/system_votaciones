@@ -1,0 +1,57 @@
+@charset "utf-8";
+/* CSS Document */
+
+.principal
+{
+	width:100%;	height:200px;
+	background:grey;
+	position:absolute;
+	left:0px;
+	top:0px;
+}
+.logo
+{
+	width:100px;	height:100px;
+	background:none;
+	padding:10px;
+	margin:10px;
+	float:left;
+	position:absolute;
+}
+.menu
+{
+	float:left;
+	margin-top:100px;
+}
+.user
+{
+	width: 250px;
+	height: 150px;
+	background: #BCD630;
+	margin: 0px;
+	float:right;
+}
+li
+{
+	width:120px;
+	display:inline-block;
+	background:#BCD630;
+	padding:10px;
+	transition:0.3s all;
+	border-radius:5px 5px 0px 0px;
+	text-align:center;
+}
+li:hover
+{
+	background:white;
+	cursor:pointer;
+}
+.data
+{
+	width:100%;	height: 70%;
+	background:white;
+	position:absolute;
+	left:0px;
+	top:150px;
+}
+
